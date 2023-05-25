@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mcq_app/Screens/Quiz.dart';
 import 'package:mcq_app/Screens/SplashScreen.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SplashScreen(),
+      home: const QuizScreen(),
     );
   }
 }
